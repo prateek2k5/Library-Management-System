@@ -70,7 +70,7 @@ LibraryManagementSystem/
 └── LICENSE                     # Project license (MIT)
 
 
-## 🗂️ Sample Book Table
+### 🗂️ Sample Book Table
 +--------+------------------------+-------------------+------------------+------+------------------+
 |   ID   |       Book Name        |      Author       |     Publisher    | Year | Copies/Total     |
 +--------+------------------------+-------------------+------------------+------+------------------+
