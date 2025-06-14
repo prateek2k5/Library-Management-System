@@ -1,67 +1,71 @@
-📚 Library Management System (Java)
-This is a simple Library Management System built using core Java concepts. The project features a basic command-line interface for users and administrators. It allows registration, login, book management, and borrowing/returning functionalities.
+# 📚 Library Management System (Java)
 
-🚀 Features
-🧑 User Interface
-Upon launching the system, the user sees the following options:
+A simple **Library Management System** built using basic **Java** concepts. This command-line project supports **user registration, login, book borrowing/return**, and **admin-level book/user management**.
 
-Login
+---
 
-Register
+## 🚀 Features
 
-Exit
+### 🧑‍💻 Start Menu
+- 🔐 Login
+- 📝 Register
+- ❌ Exit
 
-👤 Normal User Functionalities
-After a successful login, a regular user can:
+---
 
-✅ View Books
+### 👤 User Functionalities
+After logging in as a **normal user**, the following features are available:
 
-Displays a list of books with:
+- 📚 **View Books**
+  - List of books with:
+    - Serial No.
+    - Book Name
+    - Author
+    - Publisher
+    - Year
+    - Copies Available
 
-Serial No.
+- 🔍 **Search Book**
+  - Search books by **name**.
 
-Book Name
+- 📖 **Borrow Book**
+  - Borrow a book using **Book ID** (if available).
 
-Author
+- 📥 **Return Book**
+  - Return previously borrowed book using **Book ID**.
 
-Publisher
+- 📋 **My Books / Dashboard**
+  - View the list of currently borrowed books.
 
-Year
+- 🔓 **Logout**
 
-Copies Available
+---
 
-🔍 Search Book
+### 👨‍💼 Admin Functionalities
+After logging in as an **admin**, the following management options are available:
 
-Search by book name to check availability.
+- ➕ **Add Book**
+  - Add new books with details.
 
-📖 Borrow Book
+- 📚 **View Books**
+  - View the complete list of books in the library.
 
-Enter book ID to borrow (if available).
+- 👥 **View Users**
+  - View list of all registered users and their borrowed books.
 
-📥 Return Book
+- 🔓 **Logout**
 
-Return previously borrowed books using book ID.
+---
 
-📚 My Books (Dashboard)
+## 🛠️ Built With
 
-View all books currently borrowed by the user.
+- **Java (Core Concepts)**
+  - Object-Oriented Programming (OOP)
+  - File I/O or In-Memory Storage
+  - Interfaces, Classes, Collections
+- **Console-based Interface (CLI)**
 
-🔓 Logout
+---
 
-🔐 Admin Functionalities
-Admin has access to extended management features:
-
-➕ Add Book
-
-Add new books with full details.
-
-📄 View Books
-
-See complete list of available books.
-
-👥 View Users
-
-Display all registered users along with their borrowed book details.
-
-🔓 Logout
+## 📂 Folder Structure (Example)
 
